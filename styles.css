@@ -313,15 +313,23 @@ footer #footer-nav {
 }
 
 #footer-nav ul li {
-    width: fit-content;
-    height: fit-content;
+    display:flex;
+    
+    
+    background-color: #272727;
+    
 }
 
 #footer-nav ul li a{
     
-    
+    padding: 0 10px;
     font-size: 1rem;
     background-color:#272727;
     color: white;
     
+}
+
+#footer-nav ul li a:hover {
+    background-color: #e84e36;
+    border-radius: 2px;
 }
